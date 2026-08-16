@@ -22,6 +22,7 @@ The raw data had several real quality issues that needed fixing before analysis:
 
 **1. Prices are right-skewed — a handful of expensive products pull the average up.** Most listings fall between $433–$990, but the mean ($783) sits well above the median ($700), and ~6% of listings are statistical outliers on the high end — most likely higher-end Mac models.
 ![[Price distribution.png]]
+<img width="1024" height="469" alt="Price distribution" src="https://github.com/user-attachments/assets/56ad4d44-d457-4029-8b19-71e7c188a248" />
 
 
 **2. Discount levels form three clear tiers by product category.** iPad and Watch have the highest discounts (~29% and ~25%, statistically no real difference between them). iPhone sits in the middle (~18%). Mac has the lowest discounts by far (~11%), and is the least likely to go on sale.
