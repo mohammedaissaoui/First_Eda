@@ -22,25 +22,28 @@ The raw data had several real quality issues that needed fixing before analysis:
 
 **1. Prices are right-skewed — a handful of expensive products pull the average up.** Most listings fall between $433–$990, but the mean ($783) sits well above the median ($700), and ~6% of listings are statistical outliers on the high end — most likely higher-end Mac models.
 ![[Price distribution.png]]
+<img width="1024" height="469" alt="Price distribution" src="https://github.com/user-attachments/assets/56ad4d44-d457-4029-8b19-71e7c188a248" />
 
 
 **2. Discount levels form three clear tiers by product category.** iPad and Watch have the highest discounts (~29% and ~25%, statistically no real difference between them). iPhone sits in the middle (~18%). Mac has the lowest discounts by far (~11%), and is the least likely to go on sale.
-![[Discount by category.png]]
+<img width="1307" height="525" alt="Discount by category" src="https://github.com/user-attachments/assets/6a2403ce-bbb7-4c2f-9ed8-4f6a98522613" />
+
 
 **3. Platform (Amazon vs Flipkart) barely affects price.** For every product category, the price gap between platforms was tiny — under $9 in every case, and statistically negligible. This dataset shows no evidence that one platform prices Apple products differently than the other.
-![[Price by category and platform.png]]
+<img width="1015" height="448" alt="Price by category and platform Boxplot" src="https://github.com/user-attachments/assets/c3a4596f-ddfa-4e4e-95b6-7fe7fd975a1c" />
 
-![[Price by category and platform Boxplot.png]]
+<img width="1015" height="448" alt="Price by category and platform" src="https://github.com/user-attachments/assets/5cdc52fb-4a9e-4096-8088-c0cbdb491abe" />
 
 **4. Mac is the only category whose price rose over time.** Between 2020 and 2026, average Mac prices climbed from ~$919 to ~$1,364, while iPhone and Watch prices declined and iPad stayed roughly flat. This should be read with some caution — 2020 has very few Mac listings (n=57), and part of the rise could be newer, pricier Mac models entering the catalog over time rather than existing models getting more expensive.
-![[Price trend by yea.png]]
+<img width="1015" height="448" alt="Price trend by yea" src="https://github.com/user-attachments/assets/eee8ac4b-b4c7-4024-b410-8bb37347bdc0" />
+
 
 
 **5. Bigger discounts loosely line up with more reviews — but discount likely isn't the cause.** Items with many reviews almost never have a small discount, which produces a moderate positive correlation (r = 0.62). The more likely explanation: products that have been listed longer simply have more time to both collect reviews _and_ get marked down — not that a discount itself drives people to leave reviews. This dataset doesn't include a "time listed" column, so this stays a plausible explanation rather than a proven one.
-![[Discount vs review count.png]]
+<img width="1012" height="448" alt="Discount vs review count" src="https://github.com/user-attachments/assets/59d02dd1-a345-47d3-9330-a8afeebd4fb2" />
 
 6. **Rating has no real relationship with price.** Cheap and expensive products get similar ratings across the board (r = 0.11, essentially no relationship).
-![[Price vs Rating.png]]
+<img width="1001" height="448" alt="Price vs Rating" src="https://github.com/user-attachments/assets/a56e7772-e377-4953-8a76-1fa442b2421a" />
 
 ## Limitations
 
