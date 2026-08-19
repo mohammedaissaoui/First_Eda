@@ -49,8 +49,9 @@ The raw data had several real quality issues that needed fixing before analysis:
 ## Files
 
 - `apple_eda.ipynb` — full cleaning and analysis notebook, with step-by-step reasoning.
-- `data/raw.csv` — original, untouched dataset.
-- `data/cleaned.csv` — cleaned dataset used for analysis.
+- `data/raw_apple_dataset.csv` — original, untouched dataset (~82,000 rows). Used by the notebook.
+- `data/cleaned_apple_dataset.csv` — cleaned dataset used for analysis (~78,400 rows). Used by the notebook.
+- `data/raw_apple_dataset_preview.csv` / `data/cleaned_apple_dataset_preview.csv` — first 1,000 rows of each file above, small enough for GitHub to render inline, so you can see the messiness (and the cleanup) without downloading the full dataset.
 - `images/` — saved charts referenced above.
 
 ## Tools Used
